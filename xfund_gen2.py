@@ -110,7 +110,7 @@ def xfund_generator(studio_json_path, img_folder, xfund_json_path):
         # 获取图片的宽高
         height, width = img.shape[:2]
 
-        # 创建一个空白的xfund_image
+        # 创建一个空的xfund_image
         xfund_image = {}
         xfund_image["id"] = image_name
         xfund_image["document"] = []
